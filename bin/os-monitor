@@ -1,0 +1,9 @@
+#!/usr/bin/env node
+
+var OSMon = require('../lib/os-monitor').os_monitor;
+
+var os_monitor = new OSMon({ 
+  name: 'the-os-monitor'
+});
+
+os_monitor.start();

@@ -1,0 +1,21 @@
+{
+  "author": "Justin Pradier <chromecide@gmail.com>",
+  "name": "hook.io-os-monitor",
+  "description": "a simple hook.io hook for monitoring OS system resources",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/chromecide/hook.io-os-monitor"
+  },
+  "bin": {
+     "hookio-os-monitor": "./bin/os-monitor"
+  },
+  "main" : "lib/os-monitor",
+  "engines": {
+    "node": ">= v0.4.7"
+  },
+  "dependencies": {
+    "hook.io": "0.8.x"
+  },
+  "devDependencies": {}
+}
