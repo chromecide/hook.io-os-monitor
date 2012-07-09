@@ -19,11 +19,11 @@ Basic wrapper around some of the core node.js OS functionality
 
 ### Event Listeners
 
-**[name]::async_fs::watch_file** *{name, path}* - Watches file *path* using the hook name *name*
+**os-monitor::report** *{}* - Initialises an os-monitor report event
 
-**[name]::async_fs::unwatch_file** *{path}* - Stops watching the file specified by *path*
+**[name]::os-monitor::startPoll** *{interval}* - Starts the os-monitor server poll, emitting an os-monitor::report::result every *interval* milliseconds
 
-**[name]::async_fs::watch_tree** *{name, path}* - Traverses the directory defined by *path* and recursively creates an async_fs FileHook object for each file
+**[name]::os-monitor::stopPoll** *{name, path}* - Stops a previously started poll
 
 ### Events Emitted:
 
