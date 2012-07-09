@@ -6,14 +6,14 @@ Basic wrapper around some of the core node.js OS functionality
 
 ## Installation
 
-     git clone git@github.com:chromecide/hook.io-async-fs.git
-     cd hook.io-async-fs
+     git clone git@github.com:chromecide/hook.io-os-monitor.git
+     cd hook.io-os-monitor
      npm install
-     node bin/async_fs
+     node bin/os-monitor
      
 ### Using NPM
 
-    npm install hook.io-async-fs
+    npm install hook.io-os-monitor
 
 ## Hook Event Names
 
